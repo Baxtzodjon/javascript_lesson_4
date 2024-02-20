@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragn Drop Football Homework</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <div id="field">
+            <p class="p_text">Счет: <span id="scoreA">0</span> - <span id="scoreB">0</span></p>
+            <img id="ball" src="./img/ball.png" draggable="true" ondragstart="drag(event)" alt="">
+            <div class="goal" id="goalA" style="left: 0;"></div>
+            <div class="goal" id="goalB" style="right: 0;"></div>
+        </div>
+
+    </div>
+
+
+    <!-- <div class="container">
+
+        <div class="item"></div>
+
+        <div class="ball" draggable="true"></div>
+
+        <div class="item"></div>
+
+        <div class="item"></div>
+
+    </div> -->
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

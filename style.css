@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+#field {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2ecc71;
+    position: relative;
+}
+
+#ball {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    cursor: grab;
+}
+
+#ball:active {
+    cursor: grabbing;
+}
+
+.goal {
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    border-radius: 12px;
+    background-color: #e2e2e2; 
+}
+
+.p_text {
+    position: absolute;
+    top: 10px;
+}
+
+/* .item {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.ball {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-radius: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    cursor: grab;
+}
+
+.ball:active {
+    cursor: grabbing;
+} */
